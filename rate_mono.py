@@ -92,7 +92,7 @@ if(u<1):
         tasktable(task,n,lcm)
      else:
         print('Scheduling may or may not be possible as '+str(u)+'>'+str((n*((2**(1/n))-1))) )
-        tasktable(task,n,lcm)
+        tasktable(task,n,lcm) 
 else:
     print('Scheduling not possible as '+str(u)+' >1')
     
